@@ -29,7 +29,13 @@
   <body>
     <div class="envelope">
       <div class="sello" onclick="abrirSobre()">
-        <img src="./assets/sello.png" width="100%" height="100%" alt="" />
+        <img
+          src="./assets/sello.png"
+          width="100%"
+          height="100%"
+          alt=""
+          onclick="PlayAudio()"
+        />
         <span class="tooltip">Click aquí</span>
       </div>
       <div class="puerta izquierda"></div>
@@ -291,8 +297,16 @@
             momento único.
           </p>
           <button type="button" class="confirmarBtn">
-            Confirmar Asistencia
+            <a href="https://wa.link/shln71">Confirmar Asistencia</a>
           </button>
+        </div>
+        <div class="musica">
+          <audio id="musica1" controls autoplay loop>
+            <source
+              src="/assets/Christina Perri - A Thousand Years [Official Music Video].mp3"
+            />
+            Este navegador no acepta formatos de audio
+          </audio>
         </div>
       </div>
     </div>

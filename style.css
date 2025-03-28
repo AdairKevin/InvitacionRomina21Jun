@@ -656,3 +656,9 @@ td span {
   font-family: "Italiana", serif;
   color: #fdf7e5;
 }
+
+.musica {
+  margin: 0 auto;
+  text-align: center;
+  opacity: 0;
+}

@@ -43,3 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   setInterval(updateCountdown, MILLISECONDS_OF_A_SECOND);
 });
+
+function PlayAudio() {
+  document.getElementById("musica1").play();
+}
